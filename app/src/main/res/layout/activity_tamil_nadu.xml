@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.TamilNadu">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/menakshi"
+                android:text="Meenakshi temple"
+                android:onClick="menakshi"
+                android:textColor="#FFFFFF"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/brihadees"
+                android:text="Brihadeeswara Temple"
+                android:onClick="bri"
+                android:textColor="#FFFFFF"
+
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="vivek"
+                android:text="Vivekananda Rock Memorial"
+                android:textColor="#ffffff"
+                android:background="@drawable/rock"
+
+
+                />
+
+            <Button
+                android:onClick="nilgiri"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/nil"
+                android:text="Nilgiri Hills"
+                android:textColor="#FFFFFF"
+                />
+            <Button
+                android:onClick="ram"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/ram"
+                android:text="Ramanathaswamy Temple"
+                android:textColor="#FFFFFF"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

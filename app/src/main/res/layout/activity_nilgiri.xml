@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.Nilgiri">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Nilgiri (blue mountains), are a range of mountains forming part of the Western Ghats which is located in the western part of Tamil Nadu, at the junction of Karnataka and Kerala states in Southern India. At least 24 of the Nilgiri mountains' peaks are above 2,000 metres (6,600 ft), the highest peak being Doddabetta, at 2,637 metres (8,652 ft).
+The high steppes of the Nilgiri Hills have been inhabited since prehistoric times, demonstrated by a large number of artifacts unearthed by excavators. A particularly important collection from the region can be seen in the British Museum, including those assembled by colonial officers James Wilkinson Breeks, Major M. J. Walhouse and Sir Walter Elliot.[5] The first recorded use of the word Nila applied to this region can be traced back to 1117 AD, in the report of a general of Vishnuvardhana, King of Hoysalas, who in reference to his enemies, claimed to have 'frightened the Todas, driven the Kongas underground,slaughtered the Poluvas, put to death the Maleyalas, terrified King Kala and then proceeded to offer the peak of Nila Mountain (presumably Doddabetta or Rangaswami peak of Peranganad in East Nilgiris) to Lakshmi, Goddess of Wealth.'[6] A hero stone (Veeragallu) with a Kannada inscription at Vazhaithottam (Bale thota) in the Nilgiri District, dated to 10th century CE, has been discovered.[7] A Kannada inscription of Hoysala king Ballala III (or his subordinate Madhava Dannayaka's son) from the 14th century CE has been discovered at the Siva (or Vishnu) temple at Nilagiri Sadarana Kote (present day Dannayakana Kote), near the junction of Moyar and Bhavani rivers, but the temple has since been submerged by the Bhavani Sagar dam.[8][9] In 1814, Keys, a sub-assistant, and McMahon, an apprentice in the Survey Department, ascended the hills by the Danaynkeucottah (Dannayakana Kote) Pass, penetrated into the remotest parts, made plans, and sent in reports of their discoveries. As a result of these accounts, Messrs. Whish and Kindersley, two young Madras civilians, ventured up in pursuit of some criminals taking refuge in the mountains, and proceeded to observe the interior. They soon saw and felt enough favorable climate and terrain to excite their own curiosity, and that of others.[10]
+"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="show"
+                android:text="@string/a"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

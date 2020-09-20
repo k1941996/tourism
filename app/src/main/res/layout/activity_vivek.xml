@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.Vivek">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vivekananda Rock Memorial is a popular tourist monument in Vavathurai, Kanyakumari, India. The memorial stands on one of two rocks located about 500 meters east off mainland of Vavathurai, India's southernmost tip. It was built in 1970 in honour of Swami Vivekananda who is said to have attained enlightenment on the rock. According to local legends, it was on this rock that Goddess Kumari performed austerity. A meditation hall (Dhyana Mandapam) is also attached to the memorial for visitors to meditate. The design of the mandapa incorporates different styles of temple architecture from all over India. It houses a statue of Vivekananda, made by renowned sculptor Sitaram S. Arte . The rocks are surrounded by the Laccadive Sea. The memorial consists of two main structures, the Vivekananda Mandapam and the Shripada Mandapam.
+In January 1962, on the occasion of Swami Vivekananda’s birth centenary, a group of people formed the Kanyakumari Committee whose objective was to put up a memorial on the rock and a pedestrian bridge leading to the rock. Almost simultaneously, the Ramakrishna Mission in Madras planned about this memorial.
+However, this news was not taken in good taste by a sizable population of the local Catholic fishermen. They put up a big Cross on the Rock, visible from the shore.
+
+This led to protests by the Hindu population who said the Rock was a place of worship for Hindus. A judicial probe ordered by the Madras (now Tamil Nadu) government stated in unequivocal terms that the rock was Vivekananda Rock, and that the Cross was a trespass. Amid all this acrimony, the Cross was removed secretly in the night. The situation turned volatile and the Rock was declared a prohibited area with armed guards patrolling it.
+
+The Government realised that the Rock was turning into an area of dispute with Hindus claiming it to be the Vivekananda Rock and Christians that it was St. Xavier’s Rock. It decreed that although the rock was Vivekananda Rock, there would be no memorial constructed on it. The then Chief Minister of Tamil Nadu, Shri M. Bhaktavatsalam, said that only a tablet declaring that the rock was associated with Swami Vivekananda could be put up, and nothing else. With government permission, the tablet was installed on the Rock on 17 January 1963."/>
+            <Button
+                android:layout_width="match_parent"
+                android:onClick="show"
+                android:layout_height="wrap_content"
+                android:text="@string/a"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

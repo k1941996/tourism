@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kshitijsaini.tourism" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".maharastra"
+            android:label="@string/title_activity_maharastra" >
+        </activity>
+        <activity
+            android:name=".Delhi"
+            android:label="@string/title_activity_delhi" >
+        </activity>
+        <activity
+            android:name=".Hp"
+            android:label="@string/title_activity_hp" >
+        </activity>
+        <activity
+            android:name=".Bihar"
+            android:label="@string/title_activity_bihar" >
+        </activity>
+        <activity
+            android:name=".Goa"
+            android:label="@string/title_activity_goa" >
+        </activity>
+        <activity
+            android:name=".Jammu"
+            android:label="@string/title_activity_jammu" >
+        </activity>
+        <activity
+            android:name=".Kerela"
+            android:label="@string/title_activity_kerela" >
+        </activity>
+        <activity
+            android:name=".TamilNadu"
+            android:label="@string/title_activity_tamil_nadu" >
+        </activity>
+        <activity
+            android:name=".UttarPradesh"
+            android:label="@string/title_activity_uttar_pradesh" >
+        </activity>
+        <activity
+            android:name=".Karnataka"
+            android:label="@string/title_activity_karnataka" >
+        </activity>
+        <activity
+            android:name=".Rajasthan"
+            android:label="@string/title_activity_rajasthan" >
+        </activity>
+        <activity
+            android:name=".FourDhams"
+            android:label="@string/title_activity_four_dhams" >
+        </activity>
+        <activity
+            android:name=".Andhra"
+            android:label="@string/title_activity_andhra" >
+        </activity>
+        <activity
+            android:name=".Andaman"
+            android:label="@string/title_activity_andaman" >
+        </activity>
+        <activity
+            android:name=".Taj"
+            android:label="@string/title_activity_taj" >
+        </activity>
+        <activity
+            android:name=".BanarasGhat"
+            android:label="@string/title_activity_banaras_ghat" >
+        </activity>
+        <activity
+            android:name=".Akshardham"
+            android:label="@string/title_activity_akshardham" >
+        </activity>
+        <activity
+            android:name=".RedFort"
+            android:label="@string/title_activity_red_fort" >
+        </activity>
+        <activity
+            android:name=".Qutab"
+            android:label="@string/title_activity_qutab" >
+        </activity>
+        <activity
+            android:name=".IndiaGate"
+            android:label="@string/title_activity_india_gate" >
+        </activity>
+        <activity
+            android:name=".Guru"
+            android:label="@string/title_activity_guru" >
+        </activity>
+        <activity
+            android:name=".Men"
+            android:label="@string/title_activity_men" >
+        </activity>
+        <activity
+            android:name=".Bri"
+            android:label="@string/title_activity_bri" >
+        </activity>
+        <activity
+            android:name=".Ram"
+            android:label="@string/title_activity_ram" >
+        </activity>
+        <activity
+            android:name=".Nilgiri"
+            android:label="@string/title_activity_nilgiri" >
+        </activity>
+        <activity
+            android:name=".Vivek"
+            android:label="@string/title_activity_vivek" >
+        </activity>
+        <activity
+            android:name=".Jodhpur"
+            android:label="@string/title_activity_jodhpur" >
+        </activity>
+        <activity
+            android:name=".Bikanaer"
+            android:label="@string/title_activity_bikanaer" >
+        </activity>
+        <activity
+            android:name=".Jaipur"
+            android:label="@string/title_activity_jaipur" >
+        </activity>
+        <activity
+            android:name=".UdaiPur"
+            android:label="@string/title_activity_udai_pur" >
+        </activity>
+        <activity
+            android:name=".Jaiselmaer"
+            android:label="@string/title_activity_jaiselmaer" >
+        </activity>
+        <activity
+            android:name=".Lakshmi"
+            android:label="@string/title_activity_lakshmi" >
+        </activity>
+        <activity
+            android:name=".ElephantaCaves"
+            android:label="@string/title_activity_elephanta_caves" >
+        </activity>
+        <activity
+            android:name=".GatewayOfIndia"
+            android:label="@string/title_activity_gateway_of_india" >
+        </activity>
+        <activity
+            android:name=".Siddhivinayak"
+            android:label="@string/title_activity_siddhivinayak" >
+        </activity>
+        <activity
+            android:name=".TajHotel"
+            android:label="@string/title_activity_taj_hotel" >
+        </activity>
+    </application>
+
+</manifest>

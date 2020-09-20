@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#ffffff"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.Guru">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gurudwara Bangla Sahib; (Punjabi: ???????? ????? ?????) is one of the most prominent Sikh gurdwara, or Sikh house of worship, in Delhi, India and known for its association with the eighth Sikh Guru, Guru Har Krishan, as well as the pool inside its complex, known as the 'Sarovar.' It was first built as a small temple by Sikh General Sardar Bhagel Singh in 1783, who supervised the construction of nine Sikh shrines in Delhi in the same year, during the reign of Mughal Emperor, Shah Alam II.
+
+It is situated near Connaught Place, New Delhi on Baba Kharak Singh Marg and it is instantly recognisable by its golden dome and tall flagpole, Nishan Sahib. Located next to it is the Sacred Heart Cathedral.
+
+Gurdwara Bangla Sahib was originally a bungalow belonging to Raja Jai Singh, an Indian ruler in the seventeenth century, and was known as Jaisinghpura Palace, in Jaisingh Pura, an historic neighbourhood demolished to make way for the Connaught Place, shopping district.[3]
+
+The eighth Sikh Guru, Guru Har Krishan resided here during his stay in Delhi in 1664. During that time, there was a smallpox and cholera epidemic, and Guru Har Krishan helped the suffering by giving aid and fresh water from the well at this house. Soon he too contracted the illness and eventually died on March 30, 1664. A small tank was later constructed by Raja Jai Singh over the well, its water is now revered as having healing properties and is taken by Sikhs throughout the world back to their homes.
+
+The Gurdwara and its Sarovar are now a place of great reverence for Sikhs, and a place for special congregation on birth anniversary of Guru Har Krishan."/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="show"
+                android:text="@string/a"/>
+        </LinearLayout>
+    </ScrollView>
+    
+    
+</LinearLayout>

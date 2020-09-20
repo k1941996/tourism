@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.IndiaGate">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The India Gate, (originally called the All India War Memorial), is a war memorial located astride the Rajpath, on the eastern edge of the ‘ceremonial axis’ of New Delhi, India, formerly called Kingsway. India gate is a memorial to 82,000 soldiers of the undivided Indian Army who died in the period 1914–21 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo-Afghan War. 13,300 servicemen's names, including some soldiers and officers from the United Kingdom, are inscribed on the gate. The India Gate, even though a war memorial, evokes the architectural style of the triumphal arch like the Arch of Constantine, outside the Colosseum in Rome, and is often compared to the Arc de Triomphe in Paris, and the Gateway of India in Mumbai. It was designed by Sir Edwin Lutyens.
+
+In 1971, following the Bangladesh Liberation war, a small simple structure, consisting of a black marble plinth, with reversed rifle, capped by war helmet, bounded by four eternal flames, was built beneath the soaring Memorial Archway. This structure, called Amar Jawan Jyoti, or the Flame of the Immortal Soldier, since 1971 has served as India's Tomb of the Unknown Soldier.
+
+The India Gate situated in Delhi,was part of the work of the Imperial War Graves Commission (IWGC), which came into existence in December 1917 for building war graves and memorials to soldiers killed in the First World War [3] The foundation stone of the All-India War Memorial was laid on 10 February 1921, at 4:30 PM, by the visiting Duke of Connaught in a solemn soldierly ceremony attended by Officers and Men of the Indian Army, Imperial Service Troops, the Commander in Chief, and Chelmsford, the viceroy.[4] On the occasion, the viceroy said, 'The stirring tales of individual heroism, will live for ever in the annals of this country', and that the memorial which was a tribute to the memory of heroes, 'known and unknown' would inspire, future generations to endure hardships with similar fortitude and 'no less valour'.[4]
+
+The King, in his message, read out by the Duke said 'On this spot, in the central vista of the Capital of India, there will stand a Memorial Archway, designed to keep' in the thoughts of future generations 'the glorious sacrifice of the officers and men of the Indian Army who fought and fell'. During the ceremony, the Deccan Horse, 3rd Sappers and Miners, 6th Jat Light Infantry, 34th Sikh Pioneers, 39th Garhwal Rifles, 59th Scinde Rifles (Frontier Force), 117th Mahrattas, and 5th Gurkha Rifles (Frontier Force), were honoured with title of ' Royal ' in recognition of the distinguished services and gallantry of the Indian Army during the Great War."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a"
+        android:onClick="show"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

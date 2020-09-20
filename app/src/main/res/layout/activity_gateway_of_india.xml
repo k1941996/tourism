@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.GatewayOfIndia">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Gateway of India is a monument built during the 20th century in Mumbai City of Maharashtra state in Western India. It is located on the waterfront in the Apollo Bunder area in South Mumbai and overlooks the Arabian Sea. The structure is a basalt arch, 26 metres (85 feet) high. It lies at the end of Chhatrapati Shivaji Marg at the water's edge in Mumbai Harbour. It was a crude jetty used by the fishing community which was later renovated and used as a landing place for British governors and other prominent people. In earlier times, it would have been the first structure that visitors arriving by boat in Mumbai would have seen. The Gateway has also been referred to as the Taj Mahal of Mumbai, and is the city's top tourist attraction. The India Gate in New Delhi is similar to the Gateway of India in Mumbai. The structure was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder, when they visited India in 1911. Built in Indo-Saracenic style, the foundation stone for the Gateway of India was laid on 31 March 1911. The final design of George Wittet was sanctioned in 1914 and the construction of the monument was completed in 1924. The Gateway was later the ceremonial entrance to India for Viceroys and the new Governors of Bombay. It served to allow entry and access to India.
+
+The monument has witnessed three terror attacks from the beginning of the 21st century; twice in 2003 and it was also the disembarkation point in 2008 when four gunmen attacked the Taj Mahal Palace and Tower."/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="show"
+                android:text="@string/a"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

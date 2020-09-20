@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.Jaipur">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jaipur is the capital and largest city of the Indian state of Rajasthan in Northern India. It was founded on 18 November 1727 by Maharaja Jai Singh II, the ruler of Amer after whom the city is named. As of 2011, the city has a population of 3.1 million, making it the tenth most populous city in the country. Jaipur is also known as the Pink City of India.
+
+Located at a distance of 260 km from the Indian capital New Delhi, it forms a part of the Golden Triangle tourist circuit along with Agra (240 km). Jaipur is a popular tourist destination in India and serves as a gateway to other tourist destinations in Rajasthan such as Jodhpur (348 km), Jaisalmer (571 km) and Udaipur (421 km).
+The city of Jaipur was founded in 1727 by Jai Singh II, the Raja of Amer who ruled from 1688 to 1758. He planned to shift his capital from Amer, 11 km from Jaipur to accommodate the growing population and increasing scarcity of water.[5] Jai Singh consulted several books on architecture and architects while planning the layout of Jaipur. Under the architectural guidance of Vidyadhar Bhattacharya, Jaipur was planned based on the principles of Vastu shastra and Shilpa Shastra.[8] The construction of the city began in 1727 and took four years to complete the major roads, offices and palaces. The city was divided into nine blocks, two of which contained the state buildings and palaces, with the remaining seven allotted to the public. Huge ramparts were built, pierced by seven fortified gates.[5]
+
+During the rule of Sawai Ram Singh, the city was painted pink to welcome the Prince of Wales, later Edward VII, in 1876.[9] Many of the avenues remained painted in pink, giving Jaipur a distinctive appearance and the epithet Pink city.[10] In the 19th century, the city grew rapidly and by 1900 it had a population of 160,000. The wide boulevards were paved and its chief industries were the working of metals and marble, fostered by a school of art founded in 1868. The city had three colleges, including a Sanskrit college (1865) and a girls' school (1867) opened during the reign of the Maharaja Ram Singh II.[11][12]
+
+In May 2008, a series of bomb blasts by Indian Mujahideen killed 63 people and injured 216"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="show"
+                android:text="@string/a"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

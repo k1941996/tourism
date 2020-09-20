@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.TajHotel">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Indian Hotels Company Limited (IHCL), branded as Taj Group, is a chain of hotels and resorts headquartered at Oxford House in Mumbai, which was incorporated by the founder of the Tata group, Jamsetji Tata, in the year 1903. This company is a part of the Tata group, one of India's largest business conglomerates. As of 2015, Taj Group operates 108 hotels across India and 17 hotels in the UK, USA, Africa, Maldives, Malaysia, Bhutan, Sri Lanka and the Middle East, and employed over 13000 people in the year 2010. Taj Group also owns a few private islands.
+Jamsetji Nusserwanji Tata, founder of the Tata Group, opened the Taj Mahal Palace, a hotel in Mumbai (formerly called Bombay) overlooking the Arabian Sea, on 16 December 1903. It was the first Taj property and the first Taj hotel. There are several anecdotal stories about why Tata opened the Taj hotel. According to a story he decided to open the hotel after an incident involving racial discrimination at the Watson's Hotel in Mumbai, where he was refused entry as the hotel permitted only Europeans
+In 1974, the group opened India's first international five star deluxe beach resort, the Fort Aguada Beach Resort in Goa. In 1970s, the Taj Group also began its business in metropolitan hotels, opening the five-star deluxe hotel, Taj Coromandel in Chennai, in 1974, acquiring an equity interest and operating contract for the Taj President (now Vivanta by Taj - President), a business hotel in Mumbai, in 1977, and also opening the Taj Mahal Hotel in Delhi in 1978.
+
+The group has been converting royal palaces in India into luxury hotels since the 1970s. The first palace to be converted into a Taj luxury hotel was the Lake Palace in Udaipur, in 1971. Other examples include the Rambagh Palace in Jaipur, Umaid Bhawan Palace in Jodhpur, Falaknuma Palace in Hyderabad and Nadesar Palace in Varanasi."/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="show"
+                android:text="@string/a"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

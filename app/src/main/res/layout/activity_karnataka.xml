@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.Karnataka">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/ka"
+                android:text="Chennakesava Temple"
+                android:textColor="#ffffff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/karn"
+                android:text="Vittala Temple"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/karna"
+                android:textColor="#ffffff"
+                android:text="Mysore Maharajah's Palace"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="Halebidu Temple "
+                android:background="@drawable/hal"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/karnat"
+                android:text="Namdroling Nyingmapa Monastery"
+
+
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

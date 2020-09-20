@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.maharastra">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/mh"
+                android:onClick="tajh"
+                android:textColor="#FFFFFF"
+                android:text="Taj Hotel"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/mha"
+                android:onClick="siddhivinayak"
+                android:text="Siddhivinayak Temple"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/mhb"
+                android:text="Maha Lakshmi Temple"
+                android:onClick="lakshmi"
+
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/mhc"
+                android:text="Gateway Of India"
+                android:textColor="#ffffff"
+                android:onClick="gateway"
+
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="elephanta"
+                android:text="Elephanta Caves"
+                android:textColor="#ffffff"
+                android:background="@drawable/mhd"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kshitijsaini.tourism.Siddhivinayak">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff">
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The Shree Siddhivinayak Ganapati Mandir is a Hindu temple dedicated to Lord Shri Ganesh. It is located in Prabhadevi, Mumbai, Maharashtra. It was originally built by Laxman Vithu and Deubai Patil on 19 November 1801.It is one of the richest temples in Mumbai.
+
+The temple has a small mandap with the shrine for Siddhi Vinayak ('Ganesha who grants your wish'). The wooden doors to the sanctum are carved with images of the Ashtavinayak (the eight manifestations of Ganesha in Maharashtra). The inner roof of the sanctum is plated with gold, and the central statue is of Ganesha. In the periphery, there is a Hanuman temple as well.
+It was Constructed on 19 November 1801, the original structure of the Siddhivinayak Temple was a small 3.6 m x 3.6 m square brick structure with a dome-shaped brick shikhara. The temple was built by the contractor Laxman Vithu Patil. The building was funded by a rich Agri woman named Deubai Patil. Childless, Deaubai built the temple so that the Lord should grant children to other barren women. Ramakrishna Jambhekar Maharaj, a disciple of the Hindu saint Akkalkot Swami Samarth, buried two divine idols in the front of the presiding deity of the temple on the orders on his guru. As prophesied by Swami Samarth, after 21 years after the burial of the icons, a mandar tree grew at that spot with a svayambhu Ganesha in its branches.
+
+The 2550 temple complex had two 3.6 m Deepamalas, a rest house and living quarters for the caretaker. It had an adjoining lake 30 x 40 sq. m. in size on the eastern and southern side of the temple. The lake, dug by Nardulla in the early 19th century to counter the scarcity of water, was filled up in the later years and the land is now not part of the temple complex. Around 1952, a small Hanuman shrine was built in the temple complex for the Hanuman icon that was found during the road extension project of Sayani Road near Elphinstone Road. In the 1950s and 60s, the fame of the temple spread and a significant number of devotees began visiting. However, in the same period, the owner of the plot sold some of the temple land, reducing the complex area. After 1975, the number of devotees increased dramatically"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="show"
+                android:text="@string/a"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
